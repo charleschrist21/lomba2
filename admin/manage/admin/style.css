@@ -1,0 +1,263 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #172951;
+}
+.content{
+    position: relative;
+    margin-left: 288px;
+    z-index: 1;
+}
+
+/* post form table */
+.allpost{
+    width: 1102px;
+    height: 372px;
+    background-color: #f9fafe;
+    margin-top: 32px;
+    margin-left: 26px;
+    border-radius: 20px;
+    position: absolute; 
+}
+.allpost-header{
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 32px;
+    margin-left: 44px;
+}
+.allpost-icon{
+    width: 12px;
+    height: 12px;
+    border: 1px solid #cbcbcb;
+    transform: rotate(45deg);
+    position: absolute;
+    margin-top: 68px;
+    margin-left: 44px;
+    border-radius: 3px;
+}
+.allpost-total{
+    font-size: 10px;
+    color: #9c9a9a;
+    margin-top: 68px;       
+    margin-left: 68px;
+    position: absolute;
+}
+
+.inp-search{
+    height: 20px;
+    width: 120px;
+    border-radius: 5px;
+    margin-left: 866px;
+    margin-top: 68px;
+    position: absolute;
+    border: 1px solid #b1b1b1;
+    padding: 0px 49px 0px 5px; 
+    font-size: 8px; 
+}
+.btn-search{
+    height: 19.5px;
+    width: 45px;
+    position: absolute;
+    margin-left: 995.5px;
+    margin-top: 69px;
+    background-color: #0c799b;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size: 6px;
+    text-align: center;
+    color: white;
+    border: none;
+}
+
+/* table */
+.allpost-table{
+    width: 1005px;
+    height: 209px;
+    position: absolute;
+    margin-left: 42px;
+    margin-top: 108px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+.allpost-table thead{
+    background-color: #ffffff;
+    filter: drop-shadow(0px 10px 4px rgb(170, 170, 170))
+}
+.allpost-table thead tr{
+    display: block;
+}
+.allpost-table thead tr td{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.allpost-table tbody{
+  display:block;
+  width: 1005px;
+  overflow: auto;
+  height: 190px;
+  font-size: 16px;
+  background-color: white;
+}
+.allpost-table tbody tr td{
+    padding-top: 15px;
+    border-bottom: 1px solid black;
+}
+.tbody-id{
+    position: relative;
+    padding-left: 5px;
+}
+.tbody-image{
+    width: 50px;
+    position: relative;
+    padding: 0px 0px 0px 50px;
+}
+.tbody-title{
+    width: 100px;
+    position: relative;
+    padding: 0px 0px 0px 50px;
+}
+.tbody-category{
+    width: 100px;
+    position: relative;
+    padding: 0px 0px 0px 50px;
+}
+.tbody-location{
+    width: 100px;
+    position: relative;
+    padding: 0px 0px 0px 40px;
+}
+.tbody-photoby{
+    width: 100px;
+    position: relative;
+    padding: 0px 0px 0px 40px;
+}
+.tbody-postby-title{
+    width: 100px;
+    position: relative;
+    padding: 0px 0px 0px 45px;
+}
+.tbody-postby{
+    width: 100px;
+    position: relative;
+    padding: 0px 0px 0px 20px;
+}
+.tbody-action{
+    width: 100px;
+    position: relative;
+    padding: 0px 0px 0px 40px;
+}
+
+/* form add  */
+.form-add-post{
+    width: 536px;
+    height: 268px;
+    position: absolute;
+    border-radius: 20px;
+    margin-top: 448px;
+    margin-left: 26px;
+    background-color: #ffffff;
+}
+.text-add-post{
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 24px;
+    margin-left: 48px;
+}
+.label-input{
+    font-size: 8px;
+    font-weight: bold;
+}
+.input-form{
+    width: 180px;
+    height: 20px;
+    border-radius: 3px;
+    border: 1px solid #b7b7b7;
+    margin-top: 5px;
+}
+.add-title{
+    position: absolute;
+    margin-left: 48px;
+    margin-top: 62px;
+}
+.add-location{
+    position: absolute;
+    margin-left: 48px;
+    margin-top: 116px;
+}
+.add-category{
+    position: absolute;
+    margin-left: 298px;
+    margin-top: 68px;
+    font-size: 6px;
+}
+.add-image{
+    position: absolute;
+    margin-left: 48px;
+    margin-top: 172px;
+}
+.add-photoby{
+    position: absolute;
+    margin-left: 298px;
+    margin-top: 112px;
+}
+.add-description{
+    position: absolute;
+    margin-left: 298px;
+    margin-top: 156px;
+}
+.btn-submit{
+    position: absolute;
+    margin-left: 48px;
+    margin-top: 228px;
+    width: 180px;
+    height: 18px;
+    background-color: #0c799b;
+    color: white;
+    font-size: 6px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.textarea-form{
+    width: 180px;
+}
+
+/* form edit */
+.form-edit-post{
+    width: 534px;
+    height: 268px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    margin-left: 594px;
+    margin-top: 448px;
+}
+.text-edit-post{
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 48px;
+    margin-top: 24px;
+    position: absolute;
+}
+.edit-id{
+    position: absolute;
+    margin-left: 48px;
+    margin-top: 68px;
+}
+.edit-title{
+    position: absolute;
+    margin-left: 48px;
+    margin-top: 116px;
+}
+.edit-location{
+    position: absolute;
+    margin-left: 48px;
+    margin-top: 157px;
+}
+.edit-image{
+    position: absolute;
+    margin-left: 48px;
+    margin-top: 208px;
+}
