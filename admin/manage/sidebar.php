@@ -7,10 +7,23 @@
     <link rel="stylesheet" href="http://localhost:8888/sinauLks/admin/manage/sidebar.css">
 </head>
 <body>
+    <?php
+        require('db.php');
+        require('auth.php');
+
+        $username = $_SESSION['username'];
+
+        $query = "SELECT * FROM `admin` WHERE username='$username' ";
+        $result = mysqli_query($conn,$query);
+
+        $rows = mysqli_fetch_array($result);
+
+
+    ?>
     <div class="sidebar">
         <div class="user-information">
-            <img src="../1.jpg" class="user-information-image">
-            <p class="user-information-username">Charles</p>
+            <img src="http://localhost:8888/sinauLks/admin/manage/admin/image/<?php echo $rows['image']; ?>" class="user-information-image">
+            <p class="user-information-username"><?php echo $username; ?></p>
             <div class="user-information-online"></div>
             <div class="user-information-admin">admin</div>
         </div>
