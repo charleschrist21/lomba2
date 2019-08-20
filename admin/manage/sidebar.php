@@ -21,8 +21,8 @@
         </div>
         <div class="sidebar-menu">
             <p class="menu-text">Menu</p>
-            <a href="#" class="btn-post">POSTINGAN</a>
-            <a href="#" class="btn-admin">ADMIN</a>
+            <a href="http://localhost:8888/sinauLks/admin/manage/post/index.php" class="btn-post">POSTINGAN</a>
+            <a href="http://localhost:8888/sinauLks/admin/manage/admin/index.php" class="btn-admin">ADMIN</a>
         </div>  
         <div class="sidebar-logout">
             <a href="#" class="btn-logout">Log Out</a>
