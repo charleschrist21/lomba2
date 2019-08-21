@@ -1,0 +1,209 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eeeeee;
+    margin: 0;
+}
+
+/* header */
+.header{
+    width: 1440px;
+    height: 112px;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+}
+.header-left{
+    margin-left: 88px;
+    margin-top: 20px;
+}
+.image-header{
+    height: 72px;
+    width: 68px;
+    position: absolute;
+}
+.header-indonesia{
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 96px;
+    margin-top: 12px;
+    border-bottom: 1px solid black;
+}
+.header-portal{
+    font-size: 8px;
+    font-weight: bold;
+    color: #BD0000;
+    position: absolute;
+    margin-left: 112px;
+    margin-top: 48px;
+}
+.header-74{
+    position: absolute;
+    margin-left: 256px;
+    /* margin-top: 16px; */
+    height: 75px;
+    border-left: 1px solid black;
+}
+.header-home{
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: 24px;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #817E7E;
+}
+.header-post{
+    position: absolute;
+    margin-left: 1236px;
+    margin-top: 24px;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #817E7E;
+}
+
+/* content */
+.img-home{
+    width: 1440px;
+    height: 572px;
+}
+.menu-by-category{
+    width: 1440px;
+    height: 80px;
+    background-color: #FF8181;
+    margin-top: -4px;
+}
+.title-menu{
+    font-size: 30px;
+    position: absolute;
+    font-weight: bold;
+    margin-left: 62px;
+    margin-top: 24px;
+    color: white;
+}
+.menu-load-all{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 29px;
+    margin-left: 1295px;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+}
+.card-view{
+    width: 356px;
+    height: 422px;
+    margin-top: 56px;
+    margin-left: 100px;
+    background-color: white;
+    position: relative;
+    display: inline-block;
+    border-radius: 10px;
+}
+.img-card{
+    width: 356px;
+    height: 210px;
+    border-radius: 10px;
+}
+.title-card{
+    margin-top: 12px;
+    text-align: center;
+    width: 356px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.location-card{
+    margin-top: -12px;
+    text-align: center;
+    width: 356px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.category-card{
+    /* margin-top: 307px; */
+    margin-left: 56px;
+    /* text-align: center;
+    width: 356px; */
+    font-size: 8px;
+    font-weight: bold;
+    position: absolute;
+
+}
+.postby-card{
+    /* margin-top: 307px; */
+    margin-left: 169px;
+    /* text-align: center;
+    width: 356px; */
+    font-size: 8px;
+    font-weight: bold;
+    position: absolute;
+
+}
+.photoby-card{
+    /* margin-top: 307px; */
+    margin-left: 266px;
+    /* text-align: center;
+    width: 356px; */
+    font-size: 8px;
+    font-weight: bold;
+    position: absolute;
+}
+.btn-view-more{
+    width: 357px;
+    height: 62px;
+    background-color: #3EBEBE;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    position: absolute;
+    margin-top: 68px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-decoration: none;
+}
+.menu-by{
+    width: 1440px;
+    height: 80px;
+    background-color: #FF8181;
+    margin-top: 20px;
+}
+a{
+    cursor: pointer;
+}
+
+/* footer */
+.footer{
+    margin-top: 30px;
+    width: 1440px;
+    height: 252px;
+    background-color: #242020;
+}
+.footer-left{
+    margin-left: 88px;
+    margin-top: 90px;
+    position: absolute;
+}
+.footer-tentang{
+    position: absolute;
+    margin-left: 972px;
+    margin-top: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+}
+.footer-kontak{
+    position: absolute;
+    margin-left: 1162px;
+    margin-top: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+    border-left: 3px solid white;
+    padding-left: 30px;
+}

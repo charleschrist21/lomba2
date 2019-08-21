@@ -91,11 +91,11 @@
             <form action="addPost.php" method="post" enctype="multipart/form-data">
                 <div class="add-title">
                     <label class="label-input" for="title">Title</label><br>
-                    <input class="input-form" type="text" name="title" id="">
+                    <input class="input-form" type="text" name="title" id="" required>
                 </div>
                 <div class="add-location">
                     <label class="label-input" for="location">Location</label><br>
-                    <input class="input-form" type="text" name="location" id="">
+                    <input class="input-form" type="text" name="location" id="" required>
                 </div>
                 <div class="add-image">
                     <input class="input-image" type="file" name="image" id="">
@@ -109,7 +109,7 @@
                 </div>
                 <div class="add-photoby">
                     <label class="label-input" for="photoby">Photo By</label><br>
-                    <input class="input-form" type="text" name="photoby" id="">
+                    <input class="input-form" type="text" name="photoby" id="" required>
                 </div>
                 <div class="add-description">
                     <label class="label-input" for="description">Description</label>
@@ -123,15 +123,15 @@
             <form action="editPost.php" method="post" enctype="multipart/form-data">
                 <div class="edit-id">
                     <label class="label-input" for="id">ID</label><br>
-                    <input class="input-form" type="text" name="id" value="<?php echo $_GET['id']; ?>"> 
+                    <input class="input-form" type="number" name="id" value="<?php echo $_GET['id']; ?>" required   > 
                 </div>
                 <div class="edit-title">
                     <label class="label-input" for="title">Title</label> <br>
-                    <input class="input-form" type="text" name="title">
+                    <input class="input-form" type="text" name="title" required >
                 </div>
                 <div class="edit-location">
                     <label class="label-input" for="location">Location</label> <br>
-                    <input class="input-form" type="text" name="location">
+                    <input class="input-form" type="text" name="location" required  >
                 </div>
                 <div class="edit-image">
                     <input class="input-image" type="file" name="image">
@@ -145,7 +145,7 @@
                 </div>
                 <div class="add-photoby">
                     <label class="label-input" for="photoby">Photo By</label> <br>
-                    <input class="input-form" type="text" name="photoby">
+                    <input class="input-form" type="text" name="photoby" required   >
                 </div>
                 <div class="add-description">
                     <label class="label-input" for="description">Description</label> <br>

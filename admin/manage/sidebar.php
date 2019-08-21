@@ -38,7 +38,7 @@
             <a href="http://localhost:8888/sinauLks/admin/manage/admin/index.php" class="btn-admin">ADMIN</a>
         </div>  
         <div class="sidebar-logout">
-            <a href="#" class="btn-logout">Log Out</a>
+            <a href="" class="btn-logout">Log Out</a>
         </div>
     </div>
 </body>

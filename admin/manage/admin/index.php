@@ -53,7 +53,7 @@
                                         echo "<td class='tbody-postby'>" ."". "</td>";
                                         echo "<td class='tbody-action'>";
                                         echo "<a href=' ? id=$id' class='btn-edit'>"."Edit"."</a>";
-                                        echo "<a href=' delete.php?id=$id' onclick = \"return confirm('are you sure to delete?')\" class='btn-delete'>"."Delete"."</a>";
+                                        echo "<a href=' delete.php required?id=$id' onclick = \"return confirm('are you sure to delete?')\" class='btn-delete'>"."Delete"."</a>";
                                         echo "</td>";
                                     echo "</tr>";
                                 }
@@ -90,26 +90,26 @@
             <form action="addAdmin.php" method="post" enctype="multipart/form-data">
                 <div class="add-title">
                     <label class="label-input" for="firstname">First Name</label><br>
-                    <input class="input-form" type="text" name="firstname" id="">
+                    <input class="input-form" type="text" name="firstname" id="" required>
                 </div>
                 <div class="add-location">
                     <label class="label-input" for="lastname">Last Name</label><br>
-                    <input class="input-form" type="text" name="lastname" id="">
+                    <input class="input-form" type="text" name="lastname" id="" required>
                 </div>
                 <div class="add-image">
                     <input class="input-image" type="file" name="image" id="">
                 </div>
                 <div class="add-category">
                     <label class="label-input" for="username">Username</label> <br>
-                    <input type="text" name="username" id="" class="input-form">
+                    <input type="text" name="username" id="" class="input-form" required>
                 </div>
                 <div class="add-photoby">
                     <label class="label-input" for="email">Email</label><br>
-                    <input class="input-form" type="email" name="email" id="">
+                    <input class="input-form" type="email" name="email" id="" required>
                 </div>
                 <div class="add-description">
                     <label class="label-input" for="password">Password</label> <br>
-                    <input type="password" name="password" class="input-form">
+                    <input type="password" name="password" class="input-form" required>
                 </div>
                 <input class="btn-submit" type="submit" name="submit" value="ADD">
             </form>
@@ -119,30 +119,30 @@
             <form action="editAdmin.php" method="post" enctype="multipart/form-data">
                 <div class="edit-id">
                     <label class="label-input" for="id">ID</label><br>
-                    <input class="input-form" type="text" name="id" value="<?php echo $_GET['id']; ?>"> 
+                    <input class="input-form" type="number" name="id" value="<?php echo $_GET['id']; ?>" required> 
                 </div>
                 <div class="edit-title">
                     <label class="label-input" for="username">Username</label> <br>
-                    <input class="input-form" type="text" name="username">
+                    <input class="input-form" type="text" name="username" required>
                 </div>
                 <div class="edit-location">
                     <label class="label-input" for="email">Email</label> <br>
-                    <input class="input-form" type="email" name="email">
+                    <input class="input-form" type="email" name="email" required>
                 </div>
                 <div class="edit-image">
                     <input class="input-image" type="file" name="image">
                 </div>
                 <div class="add-category">
                     <label class="label-input" for="fullname">First Name</label> <br>
-                    <input class="input-form" type="text" name="fullname" >
+                    <input class="input-form" type="text" name="fullname"  required>
                 </div>
                 <div class="add-photoby">
                     <label class="label-input" for="lastname">Last Name</label> <br>
-                    <input class="input-form" type="text" name="lastname">
+                    <input class="input-form" type="text" name="lastname" required>
                 </div>
                 <div class="add-description">
                     <label class="label-input" for="password">Password</label> <br>
-                    <input type="password" name="password" class="input-form">
+                    <input type="password" name="password" class="input-form" required>
                 </div>
                 <input class="btn-submit" type="submit" name="submit" value="Edit">
             </form>
